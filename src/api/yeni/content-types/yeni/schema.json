@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "yenis",
+  "info": {
+    "singularName": "yeni",
+    "pluralName": "yenis",
+    "displayName": "yeni"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "resim": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "tarih": {
+      "type": "date"
+    }
+  }
+}
